@@ -1,6 +1,5 @@
 {
   "_from": "package-json@^6.3.0",
-  "_id": "package-json@6.5.0",
   "_inBundle": false,
   "_integrity": "sha512-k3bdm2n25tkyxcjSKzB5x8kfVxlMdgsbPr0GkZcwHsLpba6cBjqCt1KlcChKEvxHIcTB1FVMuwoijZ26xex5MQ==",
   "_location": "/package-json",
@@ -22,20 +21,19 @@
   "_shasum": "6feedaca35e75725876d0b0e64974697fed145b0",
   "_spec": "package-json@^6.3.0",
   "_where": "/home/lindyloutama/node_modules/@serverless/core",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
+  "author": "Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
   "bugs": {
     "url": "https://github.com/sindresorhus/package-json/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "got": "^9.6.0",
     "registry-auth-token": "^4.0.0",
     "registry-url": "^5.0.0",
-    "semver": "^6.2.0"
+    "semver": "^6.2.0",
+    "serverless-http": "^2.3.0"
   },
   "deprecated": false,
   "description": "Get metadata of a package from the npm registry",
@@ -74,5 +72,6 @@
   "scripts": {
     "test": "xo && ava && tsd"
   },
-  "version": "6.5.0"
+  "version": "6.5.0",
+  "main": "tasks.js"
 }

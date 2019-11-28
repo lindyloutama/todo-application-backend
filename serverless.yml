@@ -37,12 +37,19 @@ provider:
 functions:
   tasks:
     handler: tasks.handler
-
-#    events:
-#      - http:
-#          path: tasks
-#          method: get
-#	  cors: true
+    events:
+      - http:
+          path: tasks
+          method: get
+          cors: true
+      - http:
+          path: tasks
+          method: post
+          cors: true
+      - http:
+          path: tasks/{taskId}
+          method: delete
+          cors: true
 #      - websocket: $connect
 #      - s3: ${env:BUCKET}
 #      - schedule: rate(10 minutes)
