@@ -2,7 +2,7 @@ service: todo-application-backend
 
 provider:
   name: aws
-  runtime: nodejs10.13.0x
+  runtime: nodejs12.x
   region: eu-west-2
 
 # you can add statements to the Lambda function's IAM Role here
