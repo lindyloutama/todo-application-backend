@@ -29,7 +29,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "registry-auth-token": "^4.0.0",
     "registry-url": "^5.0.0",
     "semver": "^6.2.0",
